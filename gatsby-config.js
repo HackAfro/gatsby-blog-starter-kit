@@ -16,18 +16,8 @@ module.exports = {
     },
     {
       resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
+      options: {},
     },
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sharp'
   ],
-}
+};
